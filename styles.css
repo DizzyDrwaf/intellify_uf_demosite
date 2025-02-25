@@ -1,0 +1,15 @@
+/* Default background for PC (larger screens) */
+body {
+    background-image: url('nosnas_pc_1.png'); /* Replace with PC background */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Background for mobile devices (screens up to 768px wide) */
+  @media (max-width: 768px) {
+    body {
+      background-image: url('nosnas_2.jpg'); /* Replace with mobile background */
+    }
+  }
+  
