@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive Image Display</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <picture>
+        <!-- Mobile Image -->
+        <source srcset="nosnas_2.jpg" media="(max-width: 768px)">
+        <!-- Desktop Image -->
+        <img src="nosnas_pc_1.png" alt="Full Page Screenshot">
+    </picture>
 </body>
 </html>

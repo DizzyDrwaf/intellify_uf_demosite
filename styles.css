@@ -1,15 +1,19 @@
-/* Default background for PC (larger screens) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-image: url('nosnas_pc_1.png'); /* Replace with PC background */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  /* Background for mobile devices (screens up to 768px wide) */
-  @media (max-width: 768px) {
-    body {
-      background-image: url('nosnas_2.jpg'); /* Replace with mobile background */
-    }
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
